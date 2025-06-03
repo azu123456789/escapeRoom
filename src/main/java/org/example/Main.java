@@ -9,22 +9,22 @@ public class Main {
 
         System.out.println("Variables escapa del salon");
 
-        int edadPersona;
+        byte edadPersona;
         double precioProducto;
-        int cantidadHijosFamilia;
+        byte cantidadHijosFamilia;
         double salarioTrabajador;
         double alturaPersonaMetros;
         boolean interruptorEncendido;
         char generoPersona; // Ejemplo: 'M', 'F', 'O'
         String matriculaVehiculo; // Inicia con letra, mejor String
-        int productosDisponiblesAlmacen;
+        short productosDisponiblesAlmacen;
         double distanciaKilometros;
         double temperaturaAmbiente;
         int numeroTelefono;
         LocalDate fechaNacimientoPersona;
-        int codigoPostal;
+        short codigoPostal;
         int idProducto;
-        int puntajeExamen;
+        float puntajeExamen;
         double velocidadAuto;
         boolean esMayorEdad;
         boolean puertaAbierta;
