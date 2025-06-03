@@ -1,6 +1,8 @@
 package org.example;
 
+import java.time.LocalDate;
 import java.time.LocalDateTimete;
+import java.time.LocalTime;
 
 public class Main {
     public static void master(String[] args) {
@@ -18,8 +20,8 @@ public class Main {
         int productosDisponiblesAlmacen;
         double distanciaKilometros;
         double temperaturaAmbiente;
-        String numeroTelefono; // Mejor String para mantener formato y ceros iniciales
-        String fechaNacimientoPersona; // Usar clase LocalDate para fechas
+        int numeroTelefono;
+        LocalDate fechaNacimientoPersona;
         int codigoPostal;
         int idProducto;
         int puntajeExamen;
@@ -34,7 +36,7 @@ public class Main {
         double precioBilleteAvion;
         int puntuacionVideojuego;
         boolean tieneLicenciaConduccion;
-        double calificacionPromedioCurso;
+        float calificacionPromedioCurso;
         String nombreCompletoPersona;
         int cantidadLibrosBiblioteca;
         String codigoBarrasProducto;
@@ -45,7 +47,7 @@ public class Main {
         char caracterEspecial; // Por ejemplo '@'
         double numeroMuyPequeno; // Ejemplo constante de Planck
         boolean sensorFuncionando;
-        String horaEvento;
+        LocalTime horaEvento;
         boolean clienteRegistrado;
         String idClienteUnico;
         double volumenRecipiente;
